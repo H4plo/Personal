@@ -1,0 +1,80 @@
+body {
+  background-color: Black;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+  max-width: 1080px;
+}
+
+header {
+  background-color: DarkRed;
+  padding: 0px 0px;
+  text-align: center;
+  font-family: Consolas;
+  color: White;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 1080px;
+  background-color: MidnightBlue;
+}
+
+.nav-cell {
+  background-color: MidnightBlue;
+  font-family: Consolas;
+  padding: 5px 10px;
+  color: White;
+}
+
+.main-body {
+  display: flex;
+  flex-flow: row nowrap;
+  position: center;
+}
+
+.option-list {
+  background-color: MidnightBlue;
+  display: flex;
+  flex-flow: column wrap;
+  width: 160px;
+  justify-content: center;
+  font-family: Consolas;
+}
+
+.list-cell {
+  background-color: DarkRed;
+  padding: 5px 20px;
+  color: White;
+}
+
+.display-space {
+  background-color: MidnightBlue;
+  flex-grow: 1;
+  color: LimeGreen;
+  font-family: Consolas;
+  padding: 5px 10px;
+}
+
+footer {
+  background-color: DarkRed;
+  text-align: center;
+  font-family: Consolas;
+  color: White;
+}
+
+/*
+@media (max-width: XXXpx) {
+  .affected-class {
+    definition
+  }
+}
+*/
+/* color pallete
+Black
+MidnightBlue
+DarkRed
+LimeGreen
+*/
