@@ -1,8 +1,9 @@
 CREATE DATABASE base;
 USE base;
 CREATE TABLE poetry (
-  id int,
+  id int PRIMARY KEY,
   title VARCHAR(128),
   content TEXT CHARACTER SET utf8mb4,
-  created_at DATE
+  collection VARCHAR(128),
+  created_at DATE DEFAULT CURRENT_DATE
 );
