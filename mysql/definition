@@ -1,0 +1,8 @@
+CREATE DATABASE base;
+USE base;
+CREATE TABLE poetry (
+  id int,
+  title VARCHAR(128),
+  content TEXT CHARACTER SET utf8mb4,
+  created_at DATE
+);
