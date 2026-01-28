@@ -1,7 +1,14 @@
 CREATE DATABASE base;
 USE base;
+
+CREATE TABLE home (
+  id INT PRIMARY KEY,
+  content TEXT CHARACTER SET utf8mb4,
+  created_at DATE DEFAULT (CURRENT_DATE)
+);
+
 CREATE TABLE poetry (
-  id int PRIMARY KEY,
+  id INT PRIMARY KEY,
   title VARCHAR(128),
   content TEXT CHARACTER SET utf8mb4,
   collection VARCHAR(128),
